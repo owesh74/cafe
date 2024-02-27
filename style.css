@@ -11,10 +11,10 @@
 }
 body{
     background-color: #212121;
-    /* background-image: url("background.jpg"); */
-    /* background: linear-gradient(transparent,black,black,transparent,black,black,transparent); */
+    background-image: url("pexels-pixabay-255464.jpg");
+    /* background: linear-gradient(black,transparent,black);
   overflow-x: hidden;
-    /* background-size:contain; */
+    background-size:cover; */
     position: relative;
 }
 .cont{
@@ -135,15 +135,16 @@ i{
 
 }
 
+
 .foot{
     display: flex;
     align-items: center;
     justify-content: center;
 
     border-radius: 49px;
-    background: #383838;
+    background: #383838cb;
     box-shadow:  5px 5px 10px #262626,
-                 -5px -5px 10px #4a4a4a;
+                 0px 0px 8px #4a4a4a;
 width: 65vw;
 height: 7vh;
 gap:10%;
@@ -199,12 +200,13 @@ bottom: 5%;
     height: 100%;
     width: 100%;
 
-    filter: brightness(0.3);
+    filter: brightness(0.2);
 
 }
 
 .price {
     color: #B4B4B8;
+    font-weight: 500;
 }
 a{
 color: inherit;

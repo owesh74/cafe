@@ -27,3 +27,12 @@ setTimeout(function(){
     loader.style.top = "-100%"
 
 },2500)
+
+
+document.querySelectorAll('.item').forEach(function (item) {
+    var priceElement = item.querySelector('p:nth-child(2)');
+
+    if (!priceElement.classList.contains('price')) {
+        priceElement.classList.add('price');
+    }
+});
